@@ -32,7 +32,7 @@ section{
 }
 
 section.even{
-  background-color: #695757;
+  background-color: #f6f6f6;
 }
 
 footer{
@@ -200,7 +200,7 @@ section .container .space{
 
 section .space.top .text-space{
   width: 85%;
-  margin: 30px auto;
+  padding: 30px auto;
 }
 
 
@@ -232,26 +232,21 @@ footer .container .foot{
 }
 
 footer .container .foot.top{
-  height: 70%;
   padding-top: 100px;
+  margin-bottom: 50px;
 }
 
-footer .container .foot.bottom{
-  height: 30%;
-}
 
 .footer-col{
   float: left;
-  height: 100%;
   width: 17%;
-  background-color: violet;
+  
 }
 
 /* footer top */
 
 .footer-col.social{
   padding-right: 50px;
-  height: 100%;
   width: 32%;
   color: white;
 }
@@ -264,15 +259,39 @@ footer .container .foot.bottom{
   margin-bottom: 30px;
 }
 
+.footer-col.social p{
+  font-size: 1.4rem;
+}
+
 
 .footer-col.social img{
   height: 20px;
 }
 
+.fa-brands{
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+.footer-col ul li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer-col ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+li:first-child {
+  color: #7289da;
+}
+
+
 /* footer bottom */
 
-footer .container .foot-bottom{
-  border-top: 3px solid #8ea1e1;
+footer .container .foot.bottom{
+  border-top: 2px solid #8ea1e1;
 }
 
 .footer-logo, .footer-registrati{
