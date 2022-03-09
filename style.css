@@ -66,7 +66,6 @@ a{
 
 nav .container .logo, .menu, .button-nav{
   float: left;
-  border: 1px solid black;
   line-height: 95px;
 }
 
@@ -119,25 +118,6 @@ nav .container button{
   background-color: white;
 }
 
-
-
-
-
-/* MAIN */
-
-section .container .space{
-  background-color: #ac5353;
-  width: 100%;
-  border: 1px solid black;
-}
-.container .space.top, .space.bottom{
-  height: 20%;
-}
-
-.container .space.center{
-  height: 60%;
-}
-
 /* jumbotron */
 
 header .jumbotron{
@@ -151,18 +131,75 @@ header .jumbotron{
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 60%;
   transform: translate(-50%, -50%);
-  width: 80%;
-  height: 500px;
   font-size: 2.5rem;
   color: white;
   text-align: center;
-  border: 1px solid black;
 }
 .jumbotron .text p{
   margin-top: 42px;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
+
+.jumbotron button{
+  padding: 20px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 50px 15px;
+}
+
+.jumbotron button:hover{
+  color: #3161e0;
+}
+
+.gray{
+  background-color: #23272a;
+  color: white;
+}
+
+
+/* MAIN */
+
+section .col{
+  
+  padding-top: 100px;
+}
+
+section .col h2{
+  
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+section .container .text-col p{
+  font-size: 1.4rem;
+  margin: 30px auto;
+}
+
+/* section 1 */
+
+.text-col{
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* section 4 */
+section .container .space{
+  background-color: #ac5353;
+  width: 100%;
+  border: 1px solid black;
+}
+.container .space.top, .space.bottom{
+  height: 20%;
+}
+
+.container .space.center{
+  height: 60%;
+}
+
 
 /* FOOTER */
 
