@@ -28,8 +28,7 @@ nav{
 }
 
 section{
-  height: 90vh;
-  border: 1px solid black;
+  margin-bottom: 100px;
 }
 
 section.even{
@@ -60,6 +59,32 @@ section .container .col{
 
 a{
   text-decoration: none;
+}
+
+/* button utiltities */
+
+.button-role{
+  padding: 20px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 50px 15px;
+}
+
+ button:hover{
+  color: #3161e0;
+}
+
+
+.gray{
+  background-color: #23272a;
+  color: white;
+}
+
+.light-blue{
+  background-color: #8ea1e1;
+  color: white;
 }
 
 /* HEADER */
@@ -142,23 +167,7 @@ header .jumbotron{
   font-size: 1.4rem;
 }
 
-.jumbotron button{
-  padding: 20px 25px;
-  border: none;
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 1.3rem;
-  margin: 50px 15px;
-}
 
-.jumbotron button:hover{
-  color: #3161e0;
-}
-
-.gray{
-  background-color: #23272a;
-  color: white;
-}
 
 
 /* MAIN */
@@ -168,13 +177,13 @@ section .col{
   padding-top: 100px;
 }
 
-section .col h2{
+section h2{
   
   font-size: 3.5rem;
   font-weight: bolder;
 }
 
-section .container .text-col p{
+section .container p{
   font-size: 1.4rem;
   margin: 30px auto;
 }
@@ -184,22 +193,41 @@ section .container .text-col p{
 .text-col{
   margin: 0 auto;
   width: 60%;
+  margin: 30px auto;
 }
 
 /* section 4 */
 section .container .space{
-  background-color: #ac5353;
   width: 100%;
-  border: 1px solid black;
-}
-.container .space.top, .space.bottom{
-  height: 20%;
+  text-align: center;
 }
 
-.container .space.center{
-  height: 60%;
+section .space.top .text-space{
+  width: 85%;
+  margin: 30px auto;
 }
 
+
+.container .space.bottom{
+  margin-bottom: 30px;
+}
+
+
+.space.bottom .call-act-bottom{
+  width: 50%;
+  margin: 0 auto;
+  background-image: url(assets/img/stars.svg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.space.bottom span{
+  margin: 30px auto;
+  display: block;
+  font-size: 2rem;
+  font-weight: bolder;
+}
 
 /* FOOTER */
 
