@@ -44,6 +44,7 @@ footer{
 }
 
 .container{
+  position: relative;
   width: 80%;
   height: 100%;
   margin: 0 auto;
@@ -59,7 +60,43 @@ section .container .col{
 
 }
 
+a{
+  text-decoration: none;
+}
+
 /* HEADER */
+
+nav .container .logo, .menu, .accesso{
+  float: left;
+  border: 1px solid black;
+  
+  line-height: 10vh;
+}
+
+/* logo */
+
+nav .container .logo a{
+  display: inline-block;
+}
+
+/* menu */
+
+ nav .menu ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+
+/* accesso */
+
+nav .container button{
+  position: absolute;
+  bottom 0;
+  right: 0;
+  text-align: right;
+}
+
+
 
 /* MAIN */
 
@@ -76,6 +113,25 @@ section .container .space{
   height: 60%;
 }
 
+/* jumbotron */
+
+header .jumbotron{
+  position: relative;
+  background-image: url(assets/img/jumbo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 500px;
+  text-align: center;
+  border: 1px solid black;
+}
 
 /* FOOTER */
 
