@@ -37,7 +37,7 @@ section.even{
 
 footer{
   height: 90vh;
-  background-color: #352d2d;
+  background-color: #23272a;
 }
 
 .container{
@@ -50,11 +50,7 @@ footer{
 
 section .container .col{
   float: left;
-  height: 90%;
   width: calc(100% / 2);
-  background-color: violet;
-  border: 1px solid black;
-
 }
 
 a{
@@ -233,12 +229,11 @@ section .space.top .text-space{
 
 footer .container .foot{
   width: 100%;
-  background-color: #682626;
-  border: 1px solid black;
 }
 
 footer .container .foot.top{
   height: 70%;
+  padding-top: 100px;
 }
 
 footer .container .foot.bottom{
@@ -252,8 +247,43 @@ footer .container .foot.bottom{
   background-color: violet;
 }
 
+/* footer top */
+
 .footer-col.social{
+  padding-right: 50px;
   height: 100%;
   width: 32%;
+  color: white;
 }
 
+
+.footer-col.social h3{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #7289da;
+  margin-bottom: 30px;
+}
+
+
+.footer-col.social img{
+  height: 20px;
+}
+
+/* footer bottom */
+
+footer .container .foot-bottom{
+  border-top: 3px solid #8ea1e1;
+}
+
+.footer-logo, .footer-registrati{
+  width: 50%;
+  float: left;
+}
+
+.footer-logo img{
+  margin-top: 55px;
+}
+
+.footer-registrati{
+  text-align: right;
+}
