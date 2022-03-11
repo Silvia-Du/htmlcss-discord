@@ -242,7 +242,6 @@ footer .container .foot.top{
 .footer-col{
   float: left;
   width: 17%;
-  
 }
 
 /* footer top */
@@ -259,6 +258,12 @@ footer .container .foot.top{
   font-weight: bolder;
   color: #7289da;
   margin-bottom: 30px;
+}
+
+.footer-col h5{
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #7289da;
 }
 
 .footer-col.social p{
