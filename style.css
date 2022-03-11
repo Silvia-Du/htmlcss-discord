@@ -103,6 +103,8 @@ nav .container .logo, .menu, .button-nav{
 /* logo */
 
 .container .logo img{
+  height: 100%;
+  vertical-align: middle;
   margin-top: 5px;
 }
 
